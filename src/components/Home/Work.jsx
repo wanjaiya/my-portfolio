@@ -16,7 +16,7 @@ function Work() {
         <div className="grid sm:grid-col-2 md:grid-col-3 gap-4">
 
           {/*Grid Item */}
-          <div  style={{ backgroundImage: `url(${hrassociates})` }} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
+          <div  style={{ backgroundImage: `url(${hrassociates})` }} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center  content-div ">
             
             {/*Hover Effect */}
             <div className="opacity-0 group-hover:opacity-100">
@@ -24,7 +24,7 @@ function Work() {
                 Laravel Application
               </span>
               <div className="pt-8 text-center">
-                <a href="https://hrassociatesltd.co.ke/">
+                <a href="https://hrassociatesltd.co.ke/" target="blank">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Visit Site
                   </button>
@@ -36,26 +36,7 @@ function Work() {
             </div>
           </div>
 
-              {/*Grid Item */}
-              <div  style={{ backgroundImage: `url(${hrassociates})` }} className="shadow-lg shodow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
             
-            {/*Hover Effect */}
-            <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-white tracking-wider">
-                Laravel Application
-              </span>
-              <div className="pt-8 text-center">
-                <a href="https://hrassociatesltd.co.ke/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Visit Site
-                  </button>
-                </a>
-                {/* <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg"></button>
-                </a> */}
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </div>

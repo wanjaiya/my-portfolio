@@ -21,7 +21,10 @@ function Work() {
             {/*Hover Effect */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                Laravel Application
+               HR Associates 
+               <p className="text-white py-4 max-w-[700px] text-lg">
+               Build with laravel and bootstrap frameworks. Uses Twill for content management
+               </p>
               </span>
               <div className="pt-8 text-center">
                 <a href="https://hrassociatesltd.co.ke/" target="blank">

@@ -46,3 +46,12 @@
     )!important;
 
   }
+
+  @media(max-width:768px){
+    .content-div {
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: left;
+      height: 220px;
+  }
+  }

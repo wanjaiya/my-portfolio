@@ -94,7 +94,7 @@ const Navbar = () => {
               href='https://github.com/wanjaiya' target='blank'>Github <FaGithub size={20}/> </a>
             </li>
             <li className='w-[150px] h-[40px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#f3a755]'>
-            <Link onClick={() => window.location = 'mailto:kangethewanjaiya@gmail.com'} to="javascript:void(0)"  className='flex justify-between items-center w-full text-gray-300'>
+            <Link onClick={(e) =>{e.preventDefault(); window.location = 'mailto:kangethewanjaiya@gmail.com'}} to="#"  className='flex justify-between items-center w-full text-gray-300'>
                 Email <HiOutlineMail size={20}/>
             </Link>
               

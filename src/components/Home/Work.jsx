@@ -1,5 +1,6 @@
 import React from "react";
 import hrassociates from "../../assets/projects/hrassociates.png";
+import Rspa from "../../assets/projects/React_spa.png";
 function Work() {
   return (
     <div name="work" className="w-full h-screen bg-[#05113f] text-gray-300">
@@ -30,6 +31,30 @@ function Work() {
                 <a href="https://hrassociatesltd.co.ke/" target="blank">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Visit Site
+                  </button>
+                </a>
+                {/* <a href="/">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg"></button>
+                </a> */}
+              </div>
+            </div>
+          </div>
+
+
+           <div  style={{ backgroundImage: `url(${Rspa})` }} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center  content-div ">
+            
+            {/*Hover Effect */}
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold text-white tracking-wider">
+              React Single Page Application
+               <p className="text-white py-4 max-w-[700px] text-lg">
+               Build using React and Tailwind Single Page Application
+               </p>
+              </span>
+              <div className="pt-8 text-center">
+                <a href="https://github.com/wanjaiya/react-spa" target="blank">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Github Repository
                   </button>
                 </a>
                 {/* <a href="/">

@@ -15,27 +15,27 @@ function Work() {
         </div>
         
         {/*Container */}
-        <div className="grid sm:grid-col-2 md:grid-col-3 gap-4">
+        <div className="w-full grid grid-cols-1 sm:grid-cols-2 gap-4 text-center py-4">
 
           {/*Grid Item */}
           <div  style={{ backgroundImage: `url(${hrassociates})` }} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center  content-div ">
             
             {/*Hover Effect */}
             <div className="opacity-0 group-hover:opacity-100">
-              <span className="md:text-2xl text-[16px] font-bold text-white tracking-wider sm:py-3">
+              <span className="text-[16px] sm:text-2xl  font-bold text-white tracking-wider ">
                HR Associates 
-               <p className="text-white py-4 max-w-[700px] text-lg">
+               <p className="text-white py-4 max-w-[700px] text-[16px] sm:text-2xl">
                Build with laravel and bootstrap frameworks. Uses Twill for content management
                </p>
               </span>
               <div className="pt-8 text-center">
                 <a href="https://hrassociatesltd.co.ke/" target="blank">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-[16px] sm:text-2xl">
                     Visit Site
                   </button>
                 </a>
                 {/* <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg"></button>
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-[16px] sm:text-2xl"></button>
                 </a> */}
               </div>
             </div>
@@ -46,20 +46,20 @@ function Work() {
             
             {/*Hover Effect */}
             <div className="opacity-0 group-hover:opacity-100">
-              <span className="md:text-2xl text-xl font-bold text-white tracking-wider">
+              <span className="text-[16px] sm:text-2xl font-bold text-white tracking-wider">
               React Blog
-               <p className="text-white py-4 max-w-[700px] text-lg">
+               <p className="text-white py-4 max-w-[700px] text-[16px] sm:text-2xl">
                CRUD functionality incorporating Axios and Json Server
                </p>
               </span>
               <div className="pt-8 text-center">
                 <a href="https://github.com/wanjaiya/react-tut-blog.git" target="blank">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-[16px] sm:text-2xl">
                     Github Repository
                   </button>
                 </a>
                 {/* <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg"></button>
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-[16px] sm:text-2xl"></button>
                 </a> */}
               </div>
             </div>
@@ -69,20 +69,20 @@ function Work() {
             
             {/*Hover Effect */}
             <div className="opacity-0 group-hover:opacity-100">
-              <span className="md:text-2xl text-xl font-bold text-white tracking-wider">
+              <span className="text-[16px] sm:text-2xl font-bold text-white tracking-wider">
               React Single Page Application
-               <p className="text-white py-4 max-w-[700px] text-lg">
+               <p className="text-white py-4 max-w-[700px] text-[16px] sm:text-2xl">
                Build using React and Tailwind Single Page Application
                </p>
               </span>
               <div className="pt-8 text-center">
                 <a href="https://github.com/wanjaiya/react-spa" target="blank">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-[16px] sm:text-2xl">
                     Github Repository
                   </button>
                 </a>
                 {/* <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg"></button>
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-[16px] sm:text-2xl"></button>
                 </a> */}
               </div>
             </div>

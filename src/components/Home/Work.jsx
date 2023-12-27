@@ -21,7 +21,7 @@ function Work() {
             
             {/*Hover Effect */}
             <div className="opacity-0 group-hover:opacity-100">
-              <span className="md:text-2xl text-xl font-bold text-white tracking-wider sm:py-3">
+              <span className="md:text-2xl text-[16px] font-bold text-white tracking-wider sm:py-3">
                HR Associates 
                <p className="text-white py-4 max-w-[700px] text-lg">
                Build with laravel and bootstrap frameworks. Uses Twill for content management

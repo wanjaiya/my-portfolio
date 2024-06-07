@@ -6,6 +6,7 @@ import COC from "../../assets/projects/COC.png";
 import SFI from "../../assets/projects/SFI.png";
 import spring from "../../assets/projects/spring.png";
 import kfw from "../../assets/projects/kfw.png";
+
 function Work() {
   return (
     <div name="work" className="w-full h-screen bg-[#05113f] text-gray-300">
@@ -38,7 +39,7 @@ function Work() {
                   </button>
                 </a>
                 {/* <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg"></button>
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-[16px] sm:text-2xl"></button>
                 </a> */}
               </div>
             </div>
@@ -148,24 +149,26 @@ function Work() {
             </div>
           </div>
 
-           <div  style={{ backgroundImage: `url(${Rspa})` }} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center  content-div ">
+        
+
+     <div  style={{ backgroundImage: `url(${Rspa})` }} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center  content-div ">
             
             {/*Hover Effect */}
             <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-white tracking-wider">
+              <span className="text-[16px] sm:text-2xl font-bold text-white tracking-wider">
               React Single Page Application
-               <p className="text-white py-4 max-w-[700px] text-lg">
+               <p className="text-white py-4 max-w-[700px] text-[16px] sm:text-2xl">
                Build using React and Tailwind Single Page Application
                </p>
               </span>
               <div className="pt-8 text-center">
                 <a href="https://github.com/wanjaiya/react-spa" target="blank">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-[16px] sm:text-2xl">
                     Github Repository
                   </button>
                 </a>
                 {/* <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg"></button>
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-[16px] sm:text-2xl"></button>
                 </a> */}
               </div>
             </div>

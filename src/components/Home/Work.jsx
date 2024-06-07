@@ -1,5 +1,4 @@
 import React from "react";
-import hrassociates from "../../assets/projects/hrassociates.png";
 import Rspa from "../../assets/projects/React_spa.png";
 import AMLA from "../../assets/projects/AMLA.png";
 import COC from "../../assets/projects/COC.png";
